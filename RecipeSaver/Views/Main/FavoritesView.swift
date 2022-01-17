@@ -13,6 +13,7 @@ struct FavoritesView: View {
             Text("Favorites")
                 .navigationTitle("Favorites")
         }
+        .navigationViewStyle(.stack)
     }
 }
 
