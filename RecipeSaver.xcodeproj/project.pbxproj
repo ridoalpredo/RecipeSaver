@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AB5EF9427963A1A000F13DD /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5EF9327963A1A000F13DD /* RecipeModel.swift */; };
 		1AB778DB27951A5100417C3C /* RecipeSaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB778DA27951A5100417C3C /* RecipeSaverApp.swift */; };
 		1AB778DD27951A5100417C3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB778DC27951A5100417C3C /* ContentView.swift */; };
 		1AB778DF27951A5300417C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB778DE27951A5300417C3C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AB5EF9327963A1A000F13DD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		1AB778D727951A5100417C3C /* RecipeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB778DA27951A5100417C3C /* RecipeSaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSaverApp.swift; sourceTree = "<group>"; };
 		1AB778DC27951A5100417C3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		1AB778EE27951B3500417C3C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1AB5EF9327963A1A000F13DD /* RecipeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				1AB778F327951C1900417C3C /* HomeView.swift in Sources */,
 				1AB778DD27951A5100417C3C /* ContentView.swift in Sources */,
 				1AB778DB27951A5100417C3C /* RecipeSaverApp.swift in Sources */,
+				1AB5EF9427963A1A000F13DD /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
