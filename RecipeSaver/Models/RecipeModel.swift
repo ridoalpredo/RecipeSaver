@@ -8,7 +8,8 @@
 import Foundation
 
 //ini untuk category,, biar saat di select category, akan muncul sesuai dengan categoty nya
-enum Category: String {
+enum Category: String, CaseIterable, Identifiable {
+    var id: String {self.rawValue}
     case breakfast = "Breakfast"
     case soup = "Soup"
     case salad = "Salad"
